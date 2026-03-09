@@ -1,14 +1,13 @@
 # Florencialucas.github.io
 # Portafolio de Especialización en Ciencia de datos e Inteligencia Artificial – Florencia Lucas
 
-El objetivo de este repositorio es presentar una selección de proyectos desarrollados en el marco de la **Especialización en Ciencia de Datos e Inteligencia Artificial**, orientados a la aplicación de metodologías de análisis de datos, aprendizaje automático para la resolución de problemas reales y el apoyo a la toma de decisiones basada en datos.
+Este repositorio presenta una selección de proyectos desarrollados durante la **Especialización en Ciencia de Datos e Inteligencia Artificial**, enfocados en la aplicación de técnicas de análisis de datos y aprendizaje automático para resolver problemas reales.
 
-El portafolio incluye proyectos en tres dominios de aplicación:
-
+Los proyectos incluidos abordan tres áreas principales:
 - **Detección de fraude en siniestros de seguros automotores** mediante modelos de clasificación supervisada.
 - **Predicción de precios de apartamentos en Uruguay** utilizando información obtenida mediante técnicas de web scraping de plataformas inmobiliarias.
 - **Detección de phishing bancario en mensajes SMS** mediante modelos de procesamiento de lenguaje natural basados en arquitecturas Transformer.
 
-Cada proyecto documenta las distintas etapas del proceso de ciencia de datos, incluyendo la adquisición y preparación de datos, análisis exploratorio, ingeniería de características, desarrollo de modelos predictivos y evaluación de resultados.
+Cada proyecto desarrolla el flujo completo de un problema de ciencia de datos, incluyendo preparación de datos, análisis exploratorio, ingeniería de variables, entrenamiento de modelos y evaluación de resultados.
 
-En conjunto, estos trabajos ilustran la aplicación práctica de técnicas de **machine learning, análisis de datos y procesamiento de lenguaje natural** en distintos contextos, tales como el sector asegurador, el mercado inmobiliario y la ciberseguridad financiera.
+**Tecnologías utilizadas:** Python, Machine Learning, Deep Learning, NLP, Scikit-learn, CatBoost, Random Forest, Transformers (DistilBERT), Pandas, NumPy y visualización de datos.
