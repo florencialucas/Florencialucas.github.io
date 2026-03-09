@@ -1,14 +1,14 @@
 # Florencialucas.github.io
-# Portafolio de Ciencia de Datos – Florencia Lucas
+# Portafolio de Especialización en Ciencia de datos e Inteligencia Artificial – Florencia Lucas
 
-Este repositorio reúne una selección de proyectos desarrollados durante la **Especialización en Ciencia de Datos e Inteligencia Artificial**. El portafolio presenta aplicaciones de técnicas de análisis de datos, machine learning y procesamiento de lenguaje natural para resolver problemas reales en distintos dominios.
+El objetivo de este repositorio es presentar una selección de proyectos desarrollados en el marco de la **Especialización en Ciencia de Datos e Inteligencia Artificial**, orientados a la aplicación de metodologías de análisis de datos, aprendizaje automático para la resolución de problemas reales y el apoyo a la toma de decisiones basada en datos.
 
-Los proyectos incluidos abordan las siguientes temáticas:
+El portafolio incluye proyectos en tres dominios de aplicación:
 
 - **Detección de fraude en siniestros de seguros automotores** mediante modelos de clasificación supervisada.
-- **Predicción de precios de apartamentos en Uruguay** utilizando datos obtenidos mediante web scraping de plataformas inmobiliarias.
-- **Detección de phishing bancario en mensajes SMS** mediante modelos de deep learning basados en arquitecturas Transformer.
+- **Predicción de precios de apartamentos en Uruguay** utilizando información obtenida mediante técnicas de web scraping de plataformas inmobiliarias.
+- **Detección de phishing bancario en mensajes SMS** mediante modelos de procesamiento de lenguaje natural basados en arquitecturas Transformer.
 
-En cada proyecto se desarrolla el flujo completo de un problema de ciencia de datos, incluyendo limpieza y preparación de datos, análisis exploratorio, ingeniería de variables, entrenamiento de modelos y evaluación de resultados.
+Cada proyecto documenta las distintas etapas del proceso de ciencia de datos, incluyendo la adquisición y preparación de datos, análisis exploratorio, ingeniería de características, desarrollo de modelos predictivos y evaluación de resultados.
 
-El objetivo de este repositorio es presentar aplicaciones prácticas de metodologías de ciencia de datos orientadas a la predicción, detección de riesgo y apoyo a la toma de decisiones basada en datos.
+En conjunto, estos trabajos ilustran la aplicación práctica de técnicas de **machine learning, análisis de datos y procesamiento de lenguaje natural** en distintos contextos, tales como el sector asegurador, el mercado inmobiliario y la ciberseguridad financiera.
