@@ -1,10 +1,9 @@
 **METODOLOGIA Y PRINCIPALES RESULTADOS**
 
-DATASET UTILIZADO: 
-https://www.kaggle.com/datasets/tajamulkhan/fraud-oracle
-
 **METODOLOGIA**
 
+- DATASET UTILIZADO: 
+https://www.kaggle.com/datasets/tajamulkhan/fraud-oracle
 El proyecto sigue un flujo de trabajo estructurado de ciencia de datos para desarrollar un modelo de detección de fraude en siniestros de seguros de automóviles.
 
 1. Análisis Exploratorio de Datos (EDA)
@@ -61,6 +60,7 @@ Luego de realizar el ajuste de hiperparámetros, el modelo optimizado de CatBoos
 2- Las variables Fault y BasePolicy son los principales impulsores de la predicción de fraude, seguidas por factores relacionados con el comportamiento del reporte del siniestro. El resto de las variables presentan un impacto menor en el modelo. 
 
 <img width="790" height="563" alt="image" src="https://github.com/user-attachments/assets/ee7d6c41-46e8-44aa-ae8e-c3a71c4c922c" />
+
 
 
 
