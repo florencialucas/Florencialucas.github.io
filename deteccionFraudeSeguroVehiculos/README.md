@@ -1,9 +1,10 @@
-**METODOLOGIA Y PRINCIPALES RESULTADOS**
+**METODOLOGÍA Y PRINCIPALES RESULTADOS**
 
-**METODOLOGIA**
+**METODOLOGÍA**
 
 - DATASET UTILIZADO: 
 https://www.kaggle.com/datasets/tajamulkhan/fraud-oracle
+
 El proyecto sigue un flujo de trabajo estructurado de ciencia de datos para desarrollar un modelo de detección de fraude en siniestros de seguros de automóviles.
 
 1. Análisis Exploratorio de Datos (EDA)
@@ -42,11 +43,12 @@ Los modelos fueron evaluados utilizando métricas adecuadas para problemas de cl
   
 La métrica de accuracy se consideró de forma complementaria debido al desbalance en la variable objetivo
 
+
 **RESULTADOS**
+
 <img width="536" height="181" alt="image" src="https://github.com/user-attachments/assets/81e082cd-df5d-4701-a5f3-a9628ac5bc2d" />
 
 El modelo CatBoost obtuvo el mejor desempeño general, especialmente en términos de recall, métrica clave en problemas de detección de fraude ya que el objetivo principal es identificar la mayor cantidad posible de casos fraudulentos.
-Luego de realizar el ajuste de hiperparámetros, el modelo optimizado de CatBoost fue seleccionado como modelo final, logrando un mejor equilibrio entre la detección de fraude y el control de falsos positivos.
 
 *Graficos principales*
 
@@ -56,6 +58,7 @@ Luego de realizar el ajuste de hiperparámetros, el modelo optimizado de CatBoos
 2- Las variables Fault y BasePolicy son los principales impulsores de la predicción de fraude, seguidas por factores relacionados con el comportamiento del reporte del siniestro. El resto de las variables presentan un impacto menor en el modelo. 
 
 <img width="790" height="563" alt="image" src="https://github.com/user-attachments/assets/ee7d6c41-46e8-44aa-ae8e-c3a71c4c922c" />
+
 
 
 
