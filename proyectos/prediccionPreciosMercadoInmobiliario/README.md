@@ -47,3 +47,29 @@ Los modelos fueron evaluados utilizando métricas de desempeño para problemas d
 
 **RESULTADOS**
 
+1. Random Forest fue el modelo con mejor desempeño, alcanzando el menor error (RMSE = 43,194) y el mayor poder explicativo (R² = 0.79) entre los modelos evaluados
+
+<img width="813" height="300" alt="image" src="https://github.com/user-attachments/assets/cc32e56a-4878-4581-9aee-f64921d682ae" />
+
+
+
+2. Principales Variables Explicativas:
+
+El Feature Importance del modelo valida que los atributos que mayor peso tienen en la determinación del precio son consistentes con el conocimiento del mercado:
+
+- COVERED_AREA: La variable más relevante, reflejando el valor intrínseco de la propiedad.
+- BATHROOMS: Un indicador clave de la funcionalidad y el confort de la unidad.
+- BEDROOMS: Un factor fundamental en la segmentación del mercado y el tamaño del hogar.
+
+<img width="995" height="855" alt="image" src="https://github.com/user-attachments/assets/308fdb9b-616f-4bb2-b2a9-819a0aba6040" />
+
+
+
+
+
+
+
+
+
+
+
