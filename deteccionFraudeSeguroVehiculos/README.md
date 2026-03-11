@@ -38,16 +38,12 @@ Los modelos fueron evaluados utilizando métricas adecuadas para problemas de cl
 - Recall
 - F1-score
 - ROC-AUC
+- Gini
+  
 La métrica de accuracy se consideró de forma complementaria debido al desbalance en la variable objetivo
 
 **RESULTADOS**
-
-| Modelo              | Accuracy  | Recall    | ROC-AUC |
-| ------------------- | --------- | --------- | ------- |
-| Regresión Logística | 0.739     | 0.478     | 0.685   |
-| Random Forest       | 0.779     | 0.559     | 0.603   |
-| XGBoost             | 0.802     | 0.605     | 0.760   |
-| CatBoost            | **0.823** | **0.647** | 0.617   |
+<img width="536" height="181" alt="image" src="https://github.com/user-attachments/assets/81e082cd-df5d-4701-a5f3-a9628ac5bc2d" />
 
 El modelo CatBoost obtuvo el mejor desempeño general, especialmente en términos de recall, métrica clave en problemas de detección de fraude ya que el objetivo principal es identificar la mayor cantidad posible de casos fraudulentos.
 Luego de realizar el ajuste de hiperparámetros, el modelo optimizado de CatBoost fue seleccionado como modelo final, logrando un mejor equilibrio entre la detección de fraude y el control de falsos positivos.
@@ -60,6 +56,7 @@ Luego de realizar el ajuste de hiperparámetros, el modelo optimizado de CatBoos
 2- Las variables Fault y BasePolicy son los principales impulsores de la predicción de fraude, seguidas por factores relacionados con el comportamiento del reporte del siniestro. El resto de las variables presentan un impacto menor en el modelo. 
 
 <img width="790" height="563" alt="image" src="https://github.com/user-attachments/assets/ee7d6c41-46e8-44aa-ae8e-c3a71c4c922c" />
+
 
 
 
