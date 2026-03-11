@@ -1,5 +1,7 @@
 **METODOLOGIA Y PRINCIPALES RESULTADOS**
 
+**METODOLOGIA**
+
 *Dataset utilizado*:
 “SMS Spam Collection Dataset” de Kaggle (https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
 
@@ -63,6 +65,7 @@ Solo 3 falsos positivos (mensajes legítimos clasificados como fraude).
 
 
 <img width="1459" height="590" alt="image" src="https://github.com/user-attachments/assets/e6a3e478-3b2d-4d69-91d6-2154df96488c" />
+
 
 
 
