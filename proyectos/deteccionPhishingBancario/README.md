@@ -54,6 +54,15 @@ El modelo basado en DistilBERT logró un desempeño muy alto en la clasificació
 - Accuracy: 99.13%
 - F1-score: 0.9653
 
+
+*Principales gráficos*
+
 La matriz de confusión muestra una capacidad de detección casi perfecta:
 Solo 3 falsos positivos (mensajes legítimos clasificados como fraude).
 6 falsos negativos (mensajes fraudulentos no detectados).
+
+
+<img width="1459" height="590" alt="image" src="https://github.com/user-attachments/assets/e6a3e478-3b2d-4d69-91d6-2154df96488c" />
+
+
+
