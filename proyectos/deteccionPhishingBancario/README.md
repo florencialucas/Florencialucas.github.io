@@ -64,8 +64,15 @@ La matriz de confusión muestra una capacidad de detección casi perfecta:
 Solo 3 falsos positivos (mensajes legítimos clasificados como fraude).
 6 falsos negativos (mensajes fraudulentos no detectados).
 
+Al observar la Curva de Pérdida (Loss), notamos lo siguiente:
+
+- Convergencia Rápida: La pérdida cae drásticamente de la época 1 a la 2, indicando que DistilBERT adapta su conocimiento previo al dominio bancario de forma eficiente.
+- Optimización de Épocas: Mantener el entrenamiento en 3 épocas evita el overfitting, permitiendo que el modelo generalice ante nuevos tipos de fraude sin memorizar el dataset de entrenamiento.
+
+
 
 <img width="1459" height="590" alt="image" src="https://github.com/user-attachments/assets/e6a3e478-3b2d-4d69-91d6-2154df96488c" />
+
 
 
 
