@@ -1,18 +1,19 @@
-**METODOLOGIA Y PRINCIPALES RESULTADOS**
+**METODOLOGÍA Y PRINCIPALES RESULTADOS**
 
-**METODOLOGIA**
+**METODOLOGÍA**
 
 *Dataset utilizado*:
+
 “SMS Spam Collection Dataset” de Kaggle (https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
 
-*Análisis Exploratorio de Datos (EDA)*
+*1. Análisis Exploratorio de Datos (EDA)*
 
 Se realizó un análisis exploratorio para comprender la estructura del dataset y las características de los mensajes. Esto incluyó:
 - Identificación de las clases Ham (mensajes legítimos) y Spam (mensajes fraudulentos).
 - Análisis del desbalance entre mensajes legítimos y fraudulentos.
 - Revisión de ejemplos de mensajes para identificar patrones comunes de fraude.
 
-*Preparación y Limpieza de Datos*
+*2. Preparación y Limpieza de Datos*
 
 Para preparar el dataset para el entrenamiento del modelo se realizaron las siguientes tareas:
 - Eliminación de mensajes duplicados.
@@ -20,7 +21,7 @@ Para preparar el dataset para el entrenamiento del modelo se realizaron las sigu
 - División del dataset en conjunto de entrenamiento (80%) y prueba (20%) utilizando muestreo estratificado.
 - Conversión del dataset al formato Hugging Face Datasets para su uso en modelos de deep learning.
 
-*Preprocesamiento de Texto*
+*3. Preprocesamiento de Texto*
 
 Se utilizó el enfoque de tokenización automática de Transformers, permitiendo que el modelo capture el contexto completo del lenguaje.
 
@@ -43,7 +44,7 @@ Se implementó un modelo de Deep Learning basado en Transformers, específicamen
 - Regularización: Weight decay para prevenir overfitting
 
 
-*Métricas de Evaluación*
+*4. Métricas de Evaluación*
 
 Debido al desbalance del dataset, el accuracy por sí solo no es suficiente, por lo que se evaluó el modelo utilizando:
 - Accuracy
@@ -65,6 +66,7 @@ Solo 3 falsos positivos (mensajes legítimos clasificados como fraude).
 
 
 <img width="1459" height="590" alt="image" src="https://github.com/user-attachments/assets/e6a3e478-3b2d-4d69-91d6-2154df96488c" />
+
 
 
 
