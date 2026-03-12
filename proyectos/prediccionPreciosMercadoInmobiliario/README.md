@@ -48,9 +48,22 @@ Los modelos fueron evaluados utilizando métricas de desempeño para problemas d
 1. Random Forest fue el modelo con mejor desempeño, alcanzando el menor error (RMSE = 43,194) y el mayor poder explicativo (R² = 0.79) entre los modelos evaluados
 
 
+
 <img width="813" height="300" alt="image" src="https://github.com/user-attachments/assets/cc32e56a-4878-4581-9aee-f64921d682ae" />
 
 
+
+*Random forest Optimizado*
+
+
+Notamos una mejora con respecto al modelo original:
+
+- El MAPE disminuye de 16.08 a 15.90
+- El MAE disminuye de 28,180.64 a 27,861.47
+- El R cuadrado aumenta de 0.79 a 0.80
+
+
+<img width="416" height="75" alt="image" src="https://github.com/user-attachments/assets/4a97e184-1356-4c84-abe7-5a8d7a4a1da3" />
 
 
 
@@ -64,6 +77,7 @@ El Feature Importance del modelo valida que los atributos que mayor peso tienen 
 
 
 <img width="995" height="855" alt="image" src="https://github.com/user-attachments/assets/308fdb9b-616f-4bb2-b2a9-819a0aba6040" />
+
 
 
 
