@@ -1,5 +1,5 @@
 # Florencialucas.github.io
-# Portafolio de Especialización en Ciencia de datos e Inteligencia Artificial – Florencia Lucas
+# Portafolio de Especialización en Ciencia de datos e Inteligencia Artificial
 
 Este repositorio presenta una selección de proyectos desarrollados durante la **Especialización en Ciencia de Datos e Inteligencia Artificial**, enfocados en la aplicación de técnicas de análisis de datos y aprendizaje automático para resolver problemas reales.
 
