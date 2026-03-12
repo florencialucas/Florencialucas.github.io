@@ -1,4 +1,4 @@
-**METODOLOOGÍA Y RESULTADOS**
+**METODOLOGÍA Y RESULTADOS**
 
 **METODOLOGÍA**
 
@@ -64,6 +64,7 @@ El Feature Importance del modelo valida que los atributos que mayor peso tienen 
 
 
 <img width="995" height="855" alt="image" src="https://github.com/user-attachments/assets/308fdb9b-616f-4bb2-b2a9-819a0aba6040" />
+
 
 
 
