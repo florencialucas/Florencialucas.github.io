@@ -2,12 +2,13 @@
 
 **METODOLOGÍA**
 
-- DATASET UTILIZADO: 
+*Dataset utilizado*
+
 https://www.kaggle.com/datasets/tajamulkhan/fraud-oracle
 
-El proyecto sigue un flujo de trabajo estructurado de ciencia de datos para desarrollar un modelo de detección de fraude en siniestros de seguros de automóviles.
 
-1. Análisis Exploratorio de Datos (EDA)
+*1. Análisis Exploratorio de Datos (EDA)*
+
 Se realizó un análisis exploratorio para comprender la estructura del dataset y las relaciones entre variables.
 Esto incluyó:
 - Análisis de variables numéricas (edad del conductor, días hasta reportar el siniestro, etc.).
@@ -15,19 +16,22 @@ Esto incluyó:
 - Identificación de valores duplicados y valores cero.
 - Visualización de patrones de fraude en diferentes variables
 
-2. Ingeniería de Variables
+*2. Ingeniería de Variables*
+
 Se aplicaron distintas técnicas para mejorar la capacidad predictiva del modelo:
 - Agrupación de niveles categóricos con baja frecuencia (<100 observaciones).
 - Transformación de variables categóricas a formato numérico.
 - Generación de nuevas variables relevantes para la detección de fraude
 
- 3. Preprocesamiento de Datos
+*3. Preprocesamiento de Datos*
+
 Previo al entrenamiento de los modelos:
 - El dataset fue dividido en conjunto de entrenamiento y prueba (80/20)
 - Se aplicaron técnicas de one-hot-encoding de variables categóricas.
 - Se realizaron transformaciones necesarias para mejorar el desempeño de los modelos.
 
-4. Entrenamiento de Modelos
+*4. Entrenamiento de Modelos*
+
  Se implementaron y compararon distintos algoritmos de machine learning:
 - Regresión Logística (modelo base): Simple pero limitada. No logra capturar patrones de fraude complejos y no lineales.
 - Random Forest: Mejora en la capacidad de modelar relaciones complejas, aunque existen algoritmos más eficientes.
@@ -58,6 +62,7 @@ El modelo CatBoost obtuvo el mejor desempeño general, especialmente en término
 2- Las variables Fault y BasePolicy son los principales impulsores de la predicción de fraude, seguidas por factores relacionados con el comportamiento del reporte del siniestro. El resto de las variables presentan un impacto menor en el modelo. 
 
 <img width="790" height="563" alt="image" src="https://github.com/user-attachments/assets/ee7d6c41-46e8-44aa-ae8e-c3a71c4c922c" />
+
 
 
 
